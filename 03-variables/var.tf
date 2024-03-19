@@ -1,4 +1,4 @@
-v# Declare the variable with value
+# Declare the variable with value
 
 variable "x" {
   default = 100
@@ -20,7 +20,7 @@ variable "z_map" {
 
 # Print variable
 output "x" {
-  value = var.x
+  value = var
 }
 
 output "y" {
