@@ -3,7 +3,7 @@
   resource "null_resource" "test" {
     count = 10
   }
-resource "null_resource" "test" {
+resource "null_resource" "test1" {
   for_each = var.colors_codes
 }
 
