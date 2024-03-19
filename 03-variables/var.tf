@@ -20,7 +20,7 @@ variable "z_map" {
 
 # Print variable
 output "x" {
-  value = var
+  value = var.x
 }
 
 output "y" {
