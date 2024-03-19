@@ -30,7 +30,7 @@ variable "ami"  {
   default = "ami-05f020f5935e52dc4"
 }
 
-variable "instance-type"{
+variable "instance_type"{
   default = "t3.micro"
 }
 variable "security_groups" {
