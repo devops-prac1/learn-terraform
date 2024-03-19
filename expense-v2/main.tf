@@ -1,4 +1,4 @@
-resource "aws_instance" "frontend" {
+resource "aws_instance" "types" {
   for_each = var.instance_types
   ami           = var.ami
   instance_type = each.value ["instance_type"]
@@ -15,6 +15,7 @@ variable "ami"  {
 variable "instance_type"{
   default = "t3.micro"
 }
+
 variable "security_groups" {
   default= ["sg-0aba17f40cdbaa0f"]
 }
