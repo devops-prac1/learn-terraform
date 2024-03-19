@@ -17,7 +17,7 @@ variable "instance_type"{
 }
 
 variable "security_groups" {
-  default= ["sg-0aba17f40cdbaa0f"]
+  default= ["sg-0aba17f40cdbaa0f9"]
 }
 
 variable "instance_types" {
@@ -29,7 +29,7 @@ variable "instance_types" {
     mysql = {
       instance_type = "t3.micro"
     }
-    backend ={
+    backend = {
       instance_type = "t3.micro"
     }
   }
